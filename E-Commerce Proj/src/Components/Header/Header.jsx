@@ -8,25 +8,23 @@ const Header = () => {
     return (
         <nav className='Container'>
             <div className='Header'>
-                <div className='heading'> <span style={{ color: 'orangered' }}>SKELE</span>TON <span ><GiTigerHead style={{ color: 'orangered' }} /></span></div>
+                <div className='heading'> <span style={{ color: 'orangered' }}>HUNT</span>ER<span ><GiTigerHead style={{ color: 'orangered' }} /></span></div>
                 <div className='header-Options'>
                     <ul>
-                        <Link  className='collection-head'><li >COLLECTIONS <FaAngleDown style={{ color: 'orangered' }} /> </li>
+                        <Link className='collection-head'>COLLECTIONS <FaAngleDown className='FaAngleDown' style={{ color: 'orangered'}} />
                             <div className='collections'>
-                                <div className='sub-collections'>
-                                    <ul className='sub-items'>
-                                        <Link><li>Electronics</li></Link>
-                                        <Link><li>Toys</li></Link>
-                                        <Link><li>Cloths</li></Link>
-                                        <Link><li>Foot_Wear</li></Link>
-                                    </ul>
-                                </div>
+                                <ul className='sub-items'>
+                                    <Link>Electronics</Link>
+                                    <Link>Toys</Link>
+                                    <Link>Cloths</Link>
+                                    <Link>Foot_Wear</Link>
+                                </ul>
                             </div>
                         </Link>
-                        <Link> <li>ABOUT</li></Link>
-                        <Link><li>CONTACT</li></Link>
-                        <Link><li>SIGN_ <span style={{ color: 'orangered' }}>UP</span> </li></Link>
-                        <Link><li >CART <FaShoppingCart style={{ color: "yellow", fontSize: 25, paddingLeft: 4 }} /></li></Link>
+                        <Link>ABOUT</Link>
+                        <Link>CONTACT</Link>
+                        <Link>SIGN_ <span style={{ color: 'orangered' }}>UP</span> </Link>
+                        <Link>CART <FaShoppingCart style={{ color: "yellow", fontSize: 25, paddingLeft: 4 }} /></Link>
                     </ul>
                 </div>
             </div>
