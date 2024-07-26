@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { GiTigerHead } from "react-icons/gi";
-import "../Navbar.css"
-const Navbar = () => {
+import "../Header.css"
+const Header = () => {
     return (
         <nav className='Container'>
             <div className='Header'>
@@ -20,4 +20,4 @@ const Navbar = () => {
         </nav>
     )
 }
-export default Navbar
+export default Header
