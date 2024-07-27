@@ -3,12 +3,12 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <>
-        <div>
-            <ul>
-                
-            </ul>
-        </div>
-
+            <div>
+                <div>About</div>
+                <div>Contact_us</div>
+                <div>Help</div>
+                <div>Social</div>
+            </div>
         </>
     )
 }
