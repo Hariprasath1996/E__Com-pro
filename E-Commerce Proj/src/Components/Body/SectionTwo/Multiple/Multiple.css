@@ -49,8 +49,8 @@ h2 {
 }
 
 .Ele img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s;
@@ -95,8 +95,8 @@ h2 {
 }
 
 .toy img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s;
@@ -130,8 +130,8 @@ h2 {
 }
 
 .Both-collections div img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s;
