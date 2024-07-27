@@ -19,6 +19,8 @@ const Header = () => {
                                     <Link>Toys</Link>
                                     <Link>Cloths</Link>
                                     <Link>Foot_Wear</Link>
+                                    <Link>Groceries</Link>
+                                    <Link>Stationeries</Link>
                                 </ul>
                             </div>
                         </Link>

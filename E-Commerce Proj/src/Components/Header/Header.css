@@ -96,12 +96,12 @@ a {
 .sub-items {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
 }
 .sub-items li a {
     display: block;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
     border-radius: 10px;
