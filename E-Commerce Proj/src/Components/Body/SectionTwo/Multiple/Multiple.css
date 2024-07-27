@@ -8,8 +8,8 @@
     height: auto;
 }
 h1{
-    color: #fff;
-    padding-top: 10px;
+    color:orangered;
+    padding-top: 30px;
 }
 .Ele-col{
     width: 100%;
@@ -21,26 +21,31 @@ h1{
 }
 .Ele-col div{
     flex: 1;
-    border: 2px solid #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 13%;
 }
 .Ele-col div p,h2{
     color: #fff;
     padding: 10px;
+
 }
 .Ele img {
     width: 300px;
     height: 300px;
     padding: 10px;
     border-radius: 20px;
+    transition: transform 0.3s;
+    border-radius: 50%;
+    
 }
-
+.Ele img:hover{
+    transform: scale(1.1);
+}
 /* toy section */
 .toy{
     width: 100%;
@@ -56,14 +61,13 @@ h1{
 }
 .toy-col div{
     flex: 1;
-    border: 2px solid #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 13%;
 }
 .toy-col div p,h2{
     color: #fff;
@@ -74,4 +78,43 @@ h1{
     height: 300px;
     padding: 10px;
     border-radius: 20px;
+    transition: transform 0.3s;
+    border-radius: 50%;
+}
+.toy img:hover{
+    transform: scale(1.2);
+}
+/* Cloth section */
+.Cloths{
+    width: 100vw;
+    height: auto;
+}
+.Both-collections{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.Both-collections div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.Both-collections div img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    border-radius: 50%;
+}
+.Cloths img:hover{
+    transform: scale(1.2);
+}
+.Cloths div p{
+    color: #fff;
+    padding: 10px;
 }
