@@ -18,6 +18,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     position: fixed;
+    z-index: 5;
 }
 .Header {
     display: flex;
@@ -53,24 +54,24 @@ a {
     font-weight: 700;
     font-size: larger;
 }
-/* .collection-head {
+.collection-head {
     position: relative; 
-} */
-/* .collection-head:hover{
+}
+.collection-head:hover{
     color: orangered;
     border-radius: 10px;
-} */
-/* .collection-head:focus .collections {
+}
+.collection-head:focus .collections {
     display: block; 
-} */
-/* .collections {
+}
+.collections {
     display: flex;
     flex-direction: column;
     position: absolute;
     overflow: hidden;
     min-width: 250px;
     max-height: 0;
-    background-color: rgb(26, 25, 25);
+    background-color:orangered;
     border-radius: 10px;
     overflow: hidden; 
     transition: max-height 0.3s ease; 
@@ -80,18 +81,19 @@ a {
     flex-direction: column;
     width: 100%;
     height: auto;
-} */
-/* .collections ul a:hover{
-    background-color: rgba(231, 216, 216, 0.479);
+}
+.collections ul a:hover{
+    background-color:#fff;
     width: 100%;
     text-align: center;
     border-radius: 5px;
-} */
-/* .collection-head:focus .collections {
+    color: orangered;
+}
+.collection-head:focus .collections {
     max-height: 400px; 
     
-} */
-/* .sub-items {
+}
+.sub-items {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -106,4 +108,4 @@ a {
 }
 .sub-items li a:hover {
     background-color: darkgrey;
-} */
+}

@@ -47,8 +47,8 @@ body {
 }
 
 .subContainer ul li img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px gray;
     transition: transform 0.3s; /* Add transition for the scaling effect */
@@ -56,6 +56,7 @@ body {
 .subContainer ul li  a{
     position: relative;
     padding: 10px;
+    margin-top: 20px;
 }
 .subContainer ul li img:hover {
     transform: scale(1.6); /* Use transform for scaling */
