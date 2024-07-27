@@ -1,3 +1,77 @@
-.multi{
+.multi {
     background-color: #1a1919;
+    width: 100vw;
+    height: auto;
+}
+.Ele {
+    width: 100%;
+    height: auto;
+}
+h1{
+    color: #fff;
+    padding-top: 10px;
+}
+.Ele-col{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.Ele-col div{
+    flex: 1;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.Ele-col div p,h2{
+    color: #fff;
+    padding: 10px;
+}
+.Ele img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* toy section */
+.toy{
+    width: 100%;
+    height: auto;
+}
+.toy-col{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.toy-col div{
+    flex: 1;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.toy-col div p,h2{
+    color: #fff;
+    padding: 10px;
+}
+.toy img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
 }
