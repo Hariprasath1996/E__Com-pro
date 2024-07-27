@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { GiTigerHead } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
+import { RiAccountPinCircleFill } from "react-icons/ri";
 import "./Header.css"
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
                 <div className='heading'> <span style={{ color: 'orangered' }}>HUNT</span>ER<span ><GiTigerHead style={{ color: 'orangered' }} /></span></div>
                 <div className='header-Options'>
                     <ul>
-                        <Link className='collection-head'>COLLECTIONS <FaAngleDown className='FaAngleDown' style={{ color: 'orangered'}} />
+                        <Link className='collection-head'>COLLECTIONS <FaAngleDown className='FaAngleDown' style={{ color: 'orangered' }} />
                             <div className='collections'>
                                 <ul className='sub-items'>
                                     <Link>Electronics</Link>
@@ -22,8 +23,7 @@ const Header = () => {
                             </div>
                         </Link>
                         <Link>ABOUT</Link>
-                        <Link>CONTACT</Link>
-                        <Link>SIGN_ <span style={{ color: 'orangered' }}>UP</span> </Link>
+                        <Link > <span style={{ fontSize: 20 }}><RiAccountPinCircleFill /></span> LOG_<span style={{ color: 'orangered' }}>IN</span> </Link>
                         <Link>CART <FaShoppingCart style={{ color: "yellow", fontSize: 25, paddingLeft: 4 }} /></Link>
                     </ul>
                 </div>
