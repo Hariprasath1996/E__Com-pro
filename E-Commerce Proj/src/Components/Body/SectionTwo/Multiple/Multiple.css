@@ -38,7 +38,7 @@ h1 {
     align-items: center;
     padding: 40px;
     margin: 20px;
-    border-radius: 13%;
+    border-radius: 10px;
     border: 2px solid #fff;
 
 }
@@ -57,7 +57,7 @@ h2 {
     border-radius: 20px;
     transition: transform 0.3s;
     border-radius: 10%;
-
+    box-shadow: 5px 5px 10px gray;
 }
 
 .Ele img:hover {
@@ -86,7 +86,7 @@ h2 {
     align-items: center;
     padding: 30px;
     margin: 20px;
-    border-radius: 13%;
+    border-radius: 10px;
     border: 2px solid #fff;
 }
 
@@ -103,6 +103,7 @@ h2 {
     border-radius: 20px;
     transition: transform 0.3s;
     border-radius: 10%;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .toy img:hover {
@@ -138,10 +139,12 @@ h2 {
     border-radius: 20px;
     transition: transform 0.3s;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .Cloths img:hover {
     transform: scale(1.2);
+ 
 }
 
 .Cloths div p {
