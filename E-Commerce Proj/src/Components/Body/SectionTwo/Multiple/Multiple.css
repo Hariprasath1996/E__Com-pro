@@ -31,14 +31,16 @@ h1 {
 }
 
 .Ele-col div {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
     border-radius: 13%;
+    border: 2px solid #fff;
+
 }
 
 .Ele-col div p,
@@ -54,7 +56,7 @@ h2 {
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s;
-    border-radius: 50%;
+    border-radius: 10%;
 
 }
 
@@ -78,14 +80,14 @@ h2 {
 }
 
 .toy-col div {
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
     border-radius: 13%;
+    border: 2px solid #fff;
 }
 
 .toy-col div p,
@@ -100,7 +102,7 @@ h2 {
     padding: 10px;
     border-radius: 20px;
     transition: transform 0.3s;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .toy img:hover {
