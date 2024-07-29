@@ -17,15 +17,15 @@ const Header = () => {
                                 <ul className='sub-items'>
                                     <Link to={"/ele"} >Electronics</Link>
                                     <Link to={"/toys"}>Toys</Link>
-                                    <Link to={"/cloths"}>Cloths</Link>
+                                    <Link to={"/cloths"} target='_blank'>Cloths</Link>
                                     <Link to={"/Foot-wear"}>Foot_Wear</Link>
                                     <Link to={"/Groceries"}>Groceries</Link>
-                                    <Link to={"/Stationeries"}>Stationeries</Link>
+                                    <Link to={"/Stationeries"} target='_blank'>Stationeries</Link>
                                 </ul>
                             </div>
                         </Link>
                         <Link to={"/about"} target='_blank'>ABOUT</Link>
-                        <Link to={"/acc"} > <span style={{ fontSize: 20 }}><RiAccountPinCircleFill /></span> LOG_<span style={{ color: 'orangered' }}>IN</span> </Link>
+                        <Link to={"/log-in"} > <span style={{ fontSize: 20 }}><RiAccountPinCircleFill /></span> LOG_<span style={{ color: 'orangered' }}>IN</span> </Link>
                         <Link to={"/cart"}>CART <FaShoppingCart style={{ color: "yellow", fontSize: 25, paddingLeft: 4 }} /></Link>
                     </ul>
                 </div>

@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div>Help
                     <div>
-                    <MdContactPhone />
+                        <MdContactPhone />
                     </div>
                 </div>
                 <div>Social
