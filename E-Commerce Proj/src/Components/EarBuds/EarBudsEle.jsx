@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import Earbuds from './EarBudsEle'
+import earBuds from './EarBudsEle'
 import BudsComponent from './BudsComp'
+
 const EarBudsEle = () => {
-    const [Products] =useState(Earbuds);
+    const [products] =useState(earBuds);
     return (
         <div className='container' >
 {
-    Products.map(
+    products.map(
         (product)=>(
             <BudsComponent key={product.id} product={product} />
         )

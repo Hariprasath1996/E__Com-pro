@@ -1,6 +1,7 @@
 import React from 'react'
 
-const BudsComponent = ({ product }) => {
+
+const BudsComponent = ({ product  }) => {
     return (
         <>
             <div>
@@ -19,4 +20,4 @@ const BudsComponent = ({ product }) => {
     )
 }
 
-export  {BudsComponent}
+export default  BudsComponent ;
