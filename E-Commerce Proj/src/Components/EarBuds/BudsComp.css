@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 10px;
-    
+    color: black;
 }
 
 .container-box {
@@ -14,11 +14,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-    margin: 5px;
+    border: 3px solid #fff;
+    margin: 10px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 5px 5px 20px rgb(128, 128, 128);
+
 }
 
 .sub-container {
@@ -37,20 +38,40 @@
     width: 250px;
     height: 300px;
     border-radius: 20px;
+    transition: transform 0.3s;
 }
 
-.name-filed ,.color {
+.img-container img:hover {
+    transform: scale(1.2);
+}
+
+.name-filed,
+.color {
     padding: 10px;
 }
-.text-field{
+
+.text-field {
     padding: 5px;
     box-shadow: 5px 5px 10px gray;
     margin-top: 20px;
     text-align: center;
     border-radius: 10px;
+    background-color: #fff;
 }
-.rating-details{
+
+.rating-details {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+}
+
+.rating {
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h2 {
+color: cornflowerblue;
 }

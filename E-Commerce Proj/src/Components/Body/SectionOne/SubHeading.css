@@ -51,8 +51,11 @@ body {
     height: 120px;
     border-radius: 50%;
     box-shadow: 5px 5px 10px gray;
-    transition: transform 0.3s; /* Add transition for the scaling effect */
+    transition: transform 0.2s; /* Add transition for the scaling effect */
     margin-left: 5px;
+}
+.subContainer ul li img:hover {
+    transform: scale(1.6); /* Use transform for scaling */
 }
 .subContainer ul li  a{
     position: absolute;
@@ -65,6 +68,4 @@ body {
     text-align: center;
     margin-top: 20px;
 }
-.subContainer ul li img:hover {
-    transform: scale(1.6); /* Use transform for scaling */
-}
+
