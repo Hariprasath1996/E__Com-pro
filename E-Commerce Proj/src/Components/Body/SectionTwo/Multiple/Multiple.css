@@ -41,6 +41,9 @@ h1 {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #fff;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #fff;
+    color: black;
 }
 
 .Ele-col a p{
@@ -85,11 +88,14 @@ h1 {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #fff;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #fff;
+    color: black;
 }
 
 .toy-col div p,
 h2 {
-    color: #fff;
+    color: #000000;
     padding: 10px;
 }
 .toy-col a p{
