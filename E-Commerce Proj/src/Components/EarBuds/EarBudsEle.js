@@ -1,4 +1,4 @@
-const EarBuds =[
+const Earbuds =[
     {
         id : 1,
         image : "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/p/r/z/enco-buds-2-oppo-original-imagh9frfp7gxdb3.jpeg?q=70",
@@ -45,4 +45,4 @@ const EarBuds =[
         Offer: "35 % Offer"
     },
 ]
-export  default EarBuds ;
+export  default Earbuds ;
