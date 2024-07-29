@@ -31,7 +31,7 @@ h1 {
     padding-top: 10px;
 }
 
-.Ele-col div {
+.Ele-col a {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
@@ -41,16 +41,11 @@ h1 {
     margin: 20px;
     border-radius: 10px;
     border: 2px solid #fff;
-
 }
 
-.Ele-col div p,
-h2 {
-    color: #fff;
-    padding: 10px;
-    margin-top: 20px;
+.Ele-col a p{
+    margin-top: 40px;
 }
-
 .Ele img {
     width: 200px;
     height: 200px;
@@ -81,7 +76,7 @@ h2 {
     padding-top: 10px;
 }
 
-.toy-col div {
+.toy-col a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,8 +91,11 @@ h2 {
 h2 {
     color: #fff;
     padding: 10px;
-    margin-top: 20px;
 }
+.toy-col a p{
+    margin-top: 40px;
+}
+
 
 .toy img {
     width: 200px;
@@ -129,14 +127,14 @@ h2 {
     gap: 20px;
 }
 
-.Both-collections div {
+.Both-collections a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.Both-collections div img {
+.Both-collections a img {
     width: 200px;
     height: 200px;
     padding: 10px;
