@@ -73,7 +73,7 @@ const Multiple = () => {
                         <p style={{fontSize:20 , fontWeight:"bold"}}>Baby-Toys Collections</p>
                             <img src="https://i.pinimg.com/564x/2b/54/7a/2b547a606ecd67a922a4e729975f5bf5.jpg" alt="#" />
                             <p style={{fontSize:20 , fontWeight:"bold"}}>Best plastic-toys </p>
-                            <h2>From <span>₹ </span>4,199</h2>
+                            <h2>From <span>₹ </span>499</h2>
                         </Link>
                     </div>
                 </div>
