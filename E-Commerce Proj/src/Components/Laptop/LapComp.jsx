@@ -15,5 +15,4 @@ const LapComp = () => {
         </div>
     )
 }
-
-export default LapComp
+export default LapComp;

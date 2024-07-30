@@ -8,6 +8,7 @@ import About from './Components/About/About';
 import EarBudsEle from './Components/EarBuds/EarBudsEle';
 import MobileComp from './Components/Mobiles/MobileComp';
 import TelevisionComp from './Components/Television/TelevisionComp';
+import LapComp from './Components/Laptop/LapComp';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/headset" element={<EarBudsEle />} />
         <Route path='/mob' element={<MobileComp/>}></Route>
         <Route path='/tv' element={<TelevisionComp/>}></Route>
+        <Route path='/lap' element={<LapComp/>}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
