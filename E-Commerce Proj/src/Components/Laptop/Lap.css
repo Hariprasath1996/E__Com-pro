@@ -17,6 +17,7 @@
     box-shadow: 5px 5px 20px gray;
     margin: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .lap-img-container{
     padding: 20px;
@@ -28,7 +29,6 @@
 .lap-img-container img:hover{
     transform: scale(1.2);
     overflow: hidden;
-    cursor: pointer;
 }
 .lap-details-container{
     text-align: center;
