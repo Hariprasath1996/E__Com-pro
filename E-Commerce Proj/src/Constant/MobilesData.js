@@ -1,12 +1,12 @@
-const EarBudsElementData =[
+const MobileData =[
     {
         id : 1,
-        image : "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/p/r/z/enco-buds-2-oppo-original-imagh9frfp7gxdb3.jpeg?q=70",
-        name:"OPPO-Enco-Buds2",
-        color:"Midnight, True Wireless",
+        image : "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/c/s/-original-imagztn7sycc4h84.jpeg?q=70",
+        name:"SAMSUNG Galaxy S23 FE",
+        color:"Mint-Green",
         Rating:"4.3*",
-        Price:"1,799",
-        Offer : "55 % Offer"
+        Price:"54,799",
+        Offer : "31% Offer"
     },
     {
         id : 2,
@@ -90,4 +90,4 @@ const EarBudsElementData =[
         Offer: "35 % Offer"
     },
 ]
-export  default EarBudsElementData ;
+export  default MobileData ;
