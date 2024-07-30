@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import EarBudsEle from './Components/EarBuds/EarBudsEle';
 import MobileComp from './Components/Mobiles/MobileComp';
+import TelevisionComp from './Components/Television/TelevisionComp';
 
 const App = () => {
   return (
@@ -17,10 +18,10 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/headset" element={<EarBudsEle />} />
         <Route path='/mob' element={<MobileComp/>}></Route>
+        <Route path='/tv' element={<TelevisionComp/>}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
   );
 };
-
 export default App;

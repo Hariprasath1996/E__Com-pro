@@ -1,64 +1,53 @@
-.mob-contain {
+.Tv-Contain {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.mob-sub-contain {
+.tv-sub-contain {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    flex: 1;
-    text-align: center;
+    margin: 10px;
     border: 2px solid #fff;
     box-shadow: 5px 5px 20px gray;
     margin: 10px;
     border-radius: 10px;
 }
 
-.mob-img-container {
+.tv-img-contain {
     padding: 20px;
-    transform: 0.3s;
 }
 
-.mob-img-container img {
+.tv-img-contain img {
     transition: transform 0.3s;
+    width: 280px;
 }
 
-.mob-img-container img:hover {
+.tv-img-contain img:hover {
     transform: scale(1.2);
-    cursor: pointer;
+    overflow: hidden;
 }
 
-.mob-name-container {
-    padding: 10px;
+.tv-details-contain {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.mob-name {
-    padding: 10px;
+.tv-name-container {
+    padding: 20px;
 
 }
 
-.mob-rating {
-    padding: 5px 10px;
-    background-color: green;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.mob-rate-container {
-    width: 100%;
+.tv-price-container {
     display: flex;
     justify-content: space-evenly;
+    justify-content: center;
+    position: relative;
+    left: 5px;
     padding: 10px;
-}
-
-.mob-offer {
-    padding: 5px 10px;
-    color: cornflowerblue;
-    border-radius: 10px;
-
 }
