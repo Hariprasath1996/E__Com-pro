@@ -2,7 +2,7 @@ const MobileData =[
     {
         id : 1,
         image : "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/c/s/-original-imagztn7sycc4h84.jpeg?q=70",
-        name:"SAMSUNG Galaxy S23 FE",
+        name:"SAMSUNG Galaxy S23",
         color:"Mint-Green",
         Rating:"4.3*",
         Price:"54,799",
@@ -10,11 +10,11 @@ const MobileData =[
     },
     {
         id : 2,
-        image : "https://rukminim2.flixcart.com/image/312/312/ksnjp8w0/mobile/w/u/8/galaxy-z-flip3-5g-sm-f711bzeeinu-samsung-original-imag662adrayy6cg.jpeg?q=70",
-        name:"SAMSUNG Galaxy Z Flip3 5G",
-        color:"Cream",
+        image : "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/k/a/-original-imah2p8n4fgtpjzb.jpeg?q=70",
+        name:"realme 12x 5G",
+        color:"Twilight Purple",
         Rating:"4.7*",
-        Price:"37,899",
+        Price:"14,899",
         Offer : "38% Offer"
     },
     {

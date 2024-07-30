@@ -1,29 +1,29 @@
 import React from 'react'
 
-const MobSubComponent = ({ product }) => {
+const MobSubComponent = ({ image, name, color, Rating, Price, Offer }) => {
     return (
-        <div>
+        <div className='mob-sub-contain'>
             <div className='mob-img-container'>
-                <img src={product.image} alt={product.name} />
+                <img src={image} alt={name} />
             </div>
             <div className='mob-name-container'>
                 <h2 className='mob-name'>
-                    {product.name}
+                    {name}
                 </h2>
-                <p className='mob-color'>
-                    {product.color}
-                </p>
+                <h4 className='mob-color'>
+                    {color}
+                </h4>
             </div>
             <div className='mob-rate-container'>
-                <h2 className='mob-rating'>
-                    {product.Rating}
-                </h2>
-                <p className='mob-price'>
-                    {product.price}
-                </p>
+                <h3 className='mob-rating'>
+                    {Rating}
+                </h3>
+                <h3 className='mob-price'>
+                    Price : <span style={{ color: "orangered" }}> ₹ {Price}</span>
+                </h3>
             </div>
             <h3 className='mob-offer'>
-                {product.Offer}
+                {Offer}
             </h3>
         </div>
     )

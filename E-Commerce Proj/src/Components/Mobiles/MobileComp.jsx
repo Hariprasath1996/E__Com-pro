@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import MobileData from '../../Constant/MobilesData'
 import MobSubComponent from './MobSubComponent'
+import "./MobileStyles.css"
 
 const MobileComp = () => {
     const [products]=useState(MobileData)
@@ -10,7 +11,7 @@ const MobileComp = () => {
             {
                 products.map(
                     (product)=>(
-                        <MobSubComponent key={product} product={product}/>
+                        <MobSubComponent key={product} {...product}/>
                     )
                 )
             }

@@ -1,0 +1,57 @@
+.mob-contain {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mob-sub-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 20px gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mob-img-container{
+    padding: 20px;
+    transform: 0.3s;
+}
+.mob-img-container img{
+    transition: transform 0.3s;
+}
+.mob-img-container img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.mob-name-container{
+    padding: 10px;
+}
+.mob-name{
+    padding: 10px;
+    
+}
+.mob-rating{
+    padding: 5px 10px ;
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+}
+.mob-rate-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.mob-offer{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+
+}
