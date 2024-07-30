@@ -9,17 +9,16 @@ const LapSubComp = ({ image, name, color, Price, Rating, Offer }) => {
             <div className='lap-details-container'>
                 <div className='lap-name-contain'>
                     <h3>{name}</h3>
-                    <h3>{color}</h3>
+                    <h4>{color}</h4>
                 </div>
                 <div className='lap-rate-contain'>
-                    <h4>{Rating}</h4>
-                    <h4>{Price}</h4>
+                    <h2 style={{ color: 'darkgreen' }}>{Rating}</h2>
+                    <h2> Price : <span style={{ color: 'orangered' }}> ₹ {Price}</span></h2>
                 </div>
                 <div className='lap-offer-contain'>
-                    <h3>{Offer}</h3>
+                    <h2>{Offer}</h2>
                 </div>
             </div>
-
         </div>
     )
 }

@@ -1,0 +1,48 @@
+.lap-main-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:  sans-serif;
+}
+.Lap-sub-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 20px gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+.lap-img-container{
+    padding: 20px;
+}
+.lap-img-container img {
+    transition: transform 0.3s;
+    width: 280px;
+}
+.lap-img-container img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    cursor: pointer;
+}
+.lap-details-container{
+    text-align: center;
+    margin-top: 20px;
+}
+.lap-rate-contain {
+    padding: 10px;
+}
+.lap-rate-contain {
+display: flex;
+justify-content: space-evenly;
+}
+.lap-name-contain h3{
+    padding: 10px;
+}
+.lap-offer-contain h2{
+    color: cornflowerblue;
+}

@@ -2,7 +2,7 @@ const LapData =[
     {
         id : 1,
         image : "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/g/w/d/-original-imahyjzhs2eddmay.jpeg?q=70",
-        name:"HP Victus Intel Core i5 12th Gen  ",
+        name:"HP Victus Intel i5 12th Gen  ",
         color:"Metallic Gray",
         Rating:"4.3*",
         Price:"55,860",
@@ -20,7 +20,7 @@ const LapData =[
     {
         id : 3,
         image : "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/g/h/3/-original-imah2n9hqpajwucf.jpeg?q=70",
-        name:"Acer Aspire 7  Intel Core i5 12th ",
+        name:"Acer Aspire 7 ",
         color:"Black Gloss",
         Rating:"4.3*",
         Price:"57,999",
@@ -38,7 +38,7 @@ const LapData =[
     {
         id : 5,
         image : "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/x/2/y/thin-15-b12uc-1690in-gaming-laptop-msi-original-imagz4b4a5qmhqzt.jpeg?q=70",
-        name:"MSI Thin 15 Intel Core i5 12th Gen",
+        name:"MSI  Intel Core i5 12th Gen",
         color:"Metallic Black",
         Rating:"4.4*",
         Price:"57,799",
