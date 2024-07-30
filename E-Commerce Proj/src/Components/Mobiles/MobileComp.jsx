@@ -11,7 +11,7 @@ const MobileComp = () => {
             {
                 products.map(
                     (product)=>(
-                        <MobSubComponent key={product} {...product}/>
+                        <MobSubComponent key={product.id} {...product}/>
                     )
                 )
             }

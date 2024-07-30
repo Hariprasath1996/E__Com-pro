@@ -9,7 +9,7 @@ const LapComp = () => {
             {
                 products.map(
                     (product) => {
-                        return <LapSubComponent key={product} {...product} />
+                        return <LapSubComponent key={product.id} {...product} />
                     }
                 )
             }

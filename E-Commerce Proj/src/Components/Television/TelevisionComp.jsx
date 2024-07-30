@@ -9,7 +9,7 @@ const TelevisionComp = () => {
             {
                 products.map(
                     (product) => (
-                        <TelevisionSubComp key={product} {...product} />
+                        <TelevisionSubComp key={product.id} {...product} />
                     )
                 )
             }
