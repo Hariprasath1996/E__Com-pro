@@ -26,6 +26,7 @@ const Header = () => {
                         </Link>
                         <Link to={"/about"} target='_blank'>ABOUT</Link>
                         <Link to={"/log-in"} > <span style={{ fontSize: 20 }}><RiAccountPinCircleFill /></span> LOG_<span style={{ color: 'orangered' }}>IN</span> </Link>
+                        <Link to={"/checkOut"}>CheckOut </Link>
                         <Link to={"/cart"}>CART <FaShoppingCart style={{ color: "yellow", fontSize: 25, paddingLeft: 4 }} /></Link>
                     </ul>
                 </div>

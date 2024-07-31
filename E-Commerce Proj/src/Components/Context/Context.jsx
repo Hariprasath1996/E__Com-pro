@@ -1,12 +1,5 @@
 
-import { React,useContext } from 'react'
+import { createContext } from 'react'
 
-const Context = () => {
-    return (
-        <div>
-
-        </div>
-    )
-}
-
+const Context = createContext()
 export default Context

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
@@ -9,8 +9,10 @@ import EarBudsEle from './Components/EarBuds/EarBudsEle';
 import MobileComp from './Components/Mobiles/MobileComp';
 import TelevisionComp from './Components/Television/TelevisionComp';
 import LapComp from './Components/Laptop/LapComp';
+import CheckOut from './Components/CheckOut/CheckOut';
 
 const App = () => {
+  // const [cart,SetCart]=useState([])
   return (
     <BrowserRouter>
       <Header />
@@ -18,9 +20,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/headset" element={<EarBudsEle />} />
-        <Route path='/mob' element={<MobileComp/>}></Route>
-        <Route path='/tv' element={<TelevisionComp/>}></Route>
-        <Route path='/lap' element={<LapComp/>}></Route>
+        <Route path='/mob' element={<MobileComp />}></Route>
+        <Route path='/tv' element={<TelevisionComp />}></Route>
+        <Route path='/lap' element={<LapComp />}></Route>
+        <Route path='/checkOut' element={<CheckOut />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>
