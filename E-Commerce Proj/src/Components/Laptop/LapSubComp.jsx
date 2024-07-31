@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const LapSubComp = ({ image, name, color, Price, Rating, Offer }) => {
     return (
-        <div className='Lap-sub-container'>
+
+        <>
+        <Link to={"/CheckOut"} className='Lap-sub-container'>
             <div className='lap-img-container'>
                 <img src={image} alt={name} />
             </div>
@@ -19,7 +22,10 @@ const LapSubComp = ({ image, name, color, Price, Rating, Offer }) => {
                     <h2>{Offer}</h2>
                 </div>
             </div>
-        </div>
+        </Link>
+        </>
+
+        
     )
 }
 

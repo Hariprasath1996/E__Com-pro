@@ -5,6 +5,7 @@ import "./BudsComp.css"
 
 
 const EarBudsEle= () => {
+    
     const [products] = useState(EarBudsElementData);
     return (
         <div className='container' >

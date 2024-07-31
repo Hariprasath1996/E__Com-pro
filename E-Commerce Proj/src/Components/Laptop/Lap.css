@@ -40,9 +40,11 @@
 .lap-rate-contain {
 display: flex;
 justify-content: space-evenly;
+font-size: medium;
 }
-.lap-name-contain h3{
+.lap-name-contain h3,h4{
     padding: 10px;
+    color: black;
 }
 .lap-offer-contain h2{
     color: cornflowerblue;

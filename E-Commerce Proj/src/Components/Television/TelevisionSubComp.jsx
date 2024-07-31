@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Television.css"
+import { Link } from 'react-router-dom'
 const TelevisionSubComp = ({ name, color, Rating, image, Price, Offer }) => {
     return (
-        <div className='tv-sub-contain'>
+        <Link to={"/CheckOut"} className='tv-sub-contain'>
             <div className='tv-img-contain' >
                 <img src={image} alt={name} />
             </div>
@@ -19,7 +20,7 @@ const TelevisionSubComp = ({ name, color, Rating, image, Price, Offer }) => {
                     <h3><span style={{color:'cornflowerblue'}}>{Offer}</span></h3>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }
 

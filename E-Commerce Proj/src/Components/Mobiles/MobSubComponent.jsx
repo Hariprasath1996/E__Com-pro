@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const MobSubComponent = ({ image, name, color, Rating, Price, Offer }) => {
     return (
-        <div className='mob-sub-contain'>
+        <Link to={"/CheckOut"} className='mob-sub-contain'>
             <div className='mob-img-container'>
                 <img src={image} alt={name} />
             </div>
@@ -19,14 +19,13 @@ const MobSubComponent = ({ image, name, color, Rating, Price, Offer }) => {
                     {Rating}
                 </h3>
                 <h3 className='mob-price'>
-                    Price : <span style={{ color: "orangered" }}> ₹ {Price}</span>
+                    <span style={{ color: "black" }}>Price :</span>   <span style={{ color: "orangered" }}> ₹ {Price}</span>
                 </h3>
             </div>
             <h3 className='mob-offer'>
                 {Offer}
             </h3>
-        </div>
+        </Link>
     )
 }
-
 export default MobSubComponent

@@ -29,7 +29,7 @@ const LapData =[
     {
         id : 4,
         image : "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/m/8/a/-original-imahyj96wdf8khy5.jpeg?q=70",
-        name:"HP Omen Intel Core i7 13th Gen ",
+        name:"HP Omen Intel Core i7 ",
         color:"Black",
         Rating:"4.2*",
         Price:"1,22,999",

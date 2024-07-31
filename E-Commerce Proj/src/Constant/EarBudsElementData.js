@@ -12,7 +12,7 @@ const EarBudsElementData =[
         id : 2,
         image : "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/e/n/0/-original-imaguhptnw8myang.jpeg?q=70",
         name:"HOP-PUP Predator   ",
-        color:"White, True Wireless",
+        color:"Black Gloss, True Wireless",
         Rating:"4.7*",
         Price:"3,899",
         Offer : "38% Offer"
@@ -21,7 +21,7 @@ const EarBudsElementData =[
         id : 3,
         image : "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/h/g/u/xo3-gaming-earbuds-with-35ms-low-latency-13mm-drivers-50h-original-imagx8hzzxrrg235.jpeg?q=70",
         name:"Boult with Quad Mic ENC",
-        color:"Black Gloss, True Wireless",
+        color:"White, True Wireless",
         Rating:"4.3*",
         Price:"1,999",
         Offer: "57 % Offer"

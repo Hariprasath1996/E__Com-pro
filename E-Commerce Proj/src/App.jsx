@@ -12,7 +12,8 @@ import LapComp from './Components/Laptop/LapComp';
 import CheckOut from './Components/CheckOut/CheckOut';
 
 const App = () => {
-  // const [cart,SetCart]=useState([])
+  const [cart,SetCart]=useState([])
+  const [checkOut,setCheckOut]=useState([])
   return (
     <BrowserRouter>
       <Header />
