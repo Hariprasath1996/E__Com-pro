@@ -1,28 +1,28 @@
-import React from 'react'
-import "./CheckOut.css"
+// 
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+
 const CheckOut = () => {
+    const location = useLocation();
+    const { product } = location.state || {}; // Destructure product from location state
+    console.log(product);
+    if (!product) {
+        return <div>No product selected!</div>; // Handle the case where no product is passed
+    }
+
     return (
-        <div className='Check-container'>
-            <div className='Check-img-contain'>
-                <img src="" alt="" />
-            </div>
-            <div className='CheckOut-Details-Container'>
-                <div className='checkout-Naming-contain'>
-                    <h2>name</h2>
-                    <p>Color</p>
-                </div>
-                <div className='checkout-Rating-contain'>
-                    <h3>Rating</h3>
-                    <h2>Price</h2>
-                </div>
-                <div className='Checkout-offer-contain'> 
-                    <h3>Offer</h3>
-                </div>
-                <div className='btn-contain'>
-                    
-                </div>
+        <div>
+            <h1>CheckOut Page</h1>
+            <div className='checkout-product'>
+                <img src={product.image} alt={product.name} />
+                <h2>{product.name}</h2>
+                <h3>{product.color}</h3>
+                <h3>Rating: {product.Rating}</h3>
+                <h3>Price: ₹{product.Price}</h3>
+                <h3>Offer: {product.Offer}</h3>
             </div>
         </div>
-    )
-}
-export default CheckOut
+    );
+};
+
+export default CheckOut;

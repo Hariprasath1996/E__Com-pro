@@ -18,7 +18,7 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home  />} />
         <Route path="/about" element={<About />} />
         <Route path="/headset" element={<EarBudsEle />} />
         <Route path='/mob' element={<MobileComp />}></Route>
